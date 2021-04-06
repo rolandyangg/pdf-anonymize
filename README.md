@@ -1,5 +1,5 @@
 # pdf-anonymize
-A python program that uses Microsoft's Presidio Project to anonymize txt and pdf files.
+A python program that uses Microsoft's Presidio Project to anonymize personal identifiable information in pdf and txt files.
 
 Supported PII Identities may be found here: https://microsoft.github.io/presidio/supported_entities/
 
