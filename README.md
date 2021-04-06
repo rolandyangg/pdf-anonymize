@@ -17,10 +17,13 @@ cd into the the cloned repository on your computer
 
 Run the following commands in the command line of your choice
 
+**IMPORTANT: Presidio is only compatable with spaCy 2.3. If you have a version of spaCy already installed, uninstall it then rereun the commands below**
+
 ```bash
 pip install PyMuPDF
 pip install presidio-analyzer
 pip install presidio-anonymizer
+pip install spaCy==2.3
 python -m spacy download en_core_web_lg
 ```
 
