@@ -3,6 +3,8 @@ A python program that uses Microsoft's Presidio Project to anonymize txt and pdf
 
 Supported PII Identities may be found here: https://microsoft.github.io/presidio/supported_entities/
 
+Currently supports .pdf and .txt files only. Can anonymize data in bulk inside folders.
+
 # Installation
 
 Make a clone of the git repository
@@ -30,7 +32,7 @@ Run the script "anonymize.py" to use the program
 python anonymize.py
 ```
 
-**Place the PDF or TXT file you want to anonymize inside of the cloned repo folder and enter the file name to anonymize it**
+**Place data you want to anonymize inside of the cloned repo folder and enter the file name to anonymize it**
 
 # Screenshots
 ![menu](img/menu.png)
