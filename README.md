@@ -13,17 +13,19 @@ Make a clone of the git repository
 git clone https://github.com/whyroland/anonymize-pdf.git
 ```
 
-cd into the the cloned repository on your computer
+CD into the the cloned repository on your computer
 
-Run the following commands in the command line of your choice
+Install the necessary dependencies from the requirements.txt
 
-**IMPORTANT: Presidio is only compatable with spaCy 2.3. If you have a version of spaCy already installed, uninstall it then rereun the commands below**
+**IMPORTANT: Presidio is only compatable with spaCy 2.3. If you have a version of spaCy already installed, uninstall it before proceeding further**
 
 ```bash
-pip install PyMuPDF
-pip install presidio-analyzer
-pip install presidio-anonymizer
-pip install spaCy==2.3
+pip freeze > requirements.txt
+```
+
+Install the model
+
+```bash
 python -m spacy download en_core_web_lg
 ```
 
